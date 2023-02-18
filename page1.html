@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    page html
+    <link rel="stylesheet" href="./page1.css" />
+
+    <!-- Internal style -->
+    <style>
+      h1 {
+        color: rgb(255, 0, 136);
+        font: sans-serif;
+      }
+      p {
+        color: rgb(0, 139, 113);
+        font: small;
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -23,20 +35,20 @@
     </nav>
     <form>
       <section>
-        <h1>about</h1>
+        <h2>about</h2>
       </section>
       <section>
         <h1>work</h1>
       </section>
       <section>
-        <h1>resume</h1>
+        <h2>resume</h2>
       </section>
       <section>
         <h1>contact</h1>
       </section>
     </form>
     <form action="updates.jsp" id="usrform">
-      Name: <input type="text" name="usrname" />
+     <input type="text" name="usrname" />
       <input type="submit" />
     </form>
     <br />
@@ -44,8 +56,10 @@
   
      Enter text here...</textarea
     >
+  
+    <p2>
     <dl>
-      <dt>HTML</dt>
+      <dt >HTML</dt>
       <dd>is a markup language</dd>
       <dt>Java</dt>
       <dd>is a programming language and platform</dd>
@@ -54,9 +68,19 @@
       <dt>SQL</dt>
       <dd>is a query language</dd>
     </dl>
+    </P2>
+    <div>
+      <p1>Straight corners</p1>
+      <P1 class="rounded">Rounded corners</P1>
+      <p1 class="elliptical">Elliptical corners</p1>
+    </div>
+    <br>
+    <br>
+    <br>
     <img
       src="https://media.istockphoto.com/id/1329212883/photo/emoticon-ball-on-male-hand-on-work-table-happy-life-concepts.jpg?b=1&s=170667a&w=0&k=20&c=d-N3MdoF3-DOobfm_FjSawbHnn-NbulzdXeyrt5zA_Q="
     />
+
     <iframe
       width="560"
       height="315"

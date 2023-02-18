@@ -1,0 +1,13 @@
+@import "header";
+@import "variables";
+@mixin flexCenter($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+// Including the mixin in code
+.container {
+  @include flexCenter(column);
+}

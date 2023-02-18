@@ -1,0 +1,63 @@
+/* unvisited link */
+a:link {
+  color: rgb(32, 213, 41);
+}
+
+/* visited link */
+a:visited {
+  color: rgba(182, 42, 207, 0.901);
+}
+
+/* mouse over element */
+div:hover {
+  color: tomato;
+}
+
+/* selected link */
+a:active {
+  color: #0000ff;
+}
+#box-2 {
+  display: inline-table;
+  width: 100px;
+  height: 100px;
+  background: blue;
+}
+.box {
+  border: 2px solid blue;
+  padding : 100px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  line-height:40px;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  
+}
+/*#box-2 {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    visibility: hidden;
+  }*/
+p {
+  display: inline;
+}
+div {
+  display: block;
+}
+p {
+  height: 400px;
+  width: 400px;
+  background: red;
+  color: rgb(87, 67, 236);
+}
+.test {
+  width: 100px;
+  height: 50px;
+  border: 1px solid rgb(37, 215, 81);
+  display: inline-block;
+}
+font-face{
+  font-family: horse;
+  src:url(https://fontawesome.com/icons/horse-head?s=solid&f=classic)}

@@ -1,0 +1,17 @@
+P1 {
+  border: 13px solid rgb(211, 50, 25);
+  font-size: 50px;
+}
+.rounded {
+  border-radius: 15px;
+}
+
+.elliptical {
+  border-radius: 100px / 25px;
+}
+li {
+  display: inline;
+}
+P2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

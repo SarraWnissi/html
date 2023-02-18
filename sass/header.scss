@@ -1,0 +1,14 @@
+$hoverColor: rgb(48, 202, 219);
+.header {
+  // CSS for elements in the header class
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button {
+    background-color: $primaryColor;
+    text-align: center;
+    &:hover {
+      background: $hoverColor;
+    }
+  }
+}

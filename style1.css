@@ -1,0 +1,69 @@
+h1 {
+  font-family: arial;
+  color: blue;
+}
+h2 {
+  font-family: Arial, Helvetica;
+  color: rgb(255, 0, 0);
+}
+h3 {
+  font-style: oblique;
+  color: blueviolet;
+}
+.title {
+  color: rgb(0, 255, 51);
+}
+#blue-bordered {
+  border: 5px dashed blue;
+}
+.box {
+  padding: <padding-top> || <padding-right> || <padding-bottom> ||
+    <padding-left>;
+  .box-6 {
+    border: 5px double orange;
+  }
+}
+/* Selecting multiple HTML element types */
+h1,
+p {
+  border: 1px solid black;
+  font-size: 40px;
+}
+
+/* Selecting styles to be applied to several classes */
+.FirstItem,
+.LastItem {
+  font-size: 1.2em;
+}
+
+/* Using multiple Kinds of selectors */
+h4,
+.red,
+#redElement {
+  color: red;
+}
+article > p {
+  font-weight: bold;
+  background-color: #821eb4;
+  color: #fff;
+  padding: 0.5em;
+}
+/* h1 ~ P { 
+  background-color: red;
+ */
+div {
+  height: 150px;
+  width: 90%;
+}
+p1 {
+  border: 10px solid black;
+  margin: 20px;
+}
+
+.rounded {
+  border-radius: 15px;
+}
+
+.elliptical {
+  border-radius: 50px / 25px;
+}
